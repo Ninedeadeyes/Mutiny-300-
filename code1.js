@@ -47,6 +47,9 @@ gdjs.intro_32Code.GDNewBBText2Objects3= [];
 gdjs.intro_32Code.GDspacebarObjects1= [];
 gdjs.intro_32Code.GDspacebarObjects2= [];
 gdjs.intro_32Code.GDspacebarObjects3= [];
+gdjs.intro_32Code.GDBackgroundBlueLandObjects1= [];
+gdjs.intro_32Code.GDBackgroundBlueLandObjects2= [];
+gdjs.intro_32Code.GDBackgroundBlueLandObjects3= [];
 
 
 gdjs.intro_32Code.eventsList0 = function(runtimeScene) {
@@ -174,7 +177,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26107436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24310356);
 }
 }
 if (isConditionTrue_0) {
@@ -833,6 +836,9 @@ gdjs.intro_32Code.GDNewBBText2Objects3.length = 0;
 gdjs.intro_32Code.GDspacebarObjects1.length = 0;
 gdjs.intro_32Code.GDspacebarObjects2.length = 0;
 gdjs.intro_32Code.GDspacebarObjects3.length = 0;
+gdjs.intro_32Code.GDBackgroundBlueLandObjects1.length = 0;
+gdjs.intro_32Code.GDBackgroundBlueLandObjects2.length = 0;
+gdjs.intro_32Code.GDBackgroundBlueLandObjects3.length = 0;
 
 gdjs.intro_32Code.eventsList5(runtimeScene);
 
