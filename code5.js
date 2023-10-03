@@ -7,6 +7,8 @@ gdjs.Game_32Over_32Code.GDCannonObjects1= [];
 gdjs.Game_32Over_32Code.GDCannonObjects2= [];
 gdjs.Game_32Over_32Code.GDgameOverObjects1= [];
 gdjs.Game_32Over_32Code.GDgameOverObjects2= [];
+gdjs.Game_32Over_32Code.GDNewBBTextObjects1= [];
+gdjs.Game_32Over_32Code.GDNewBBTextObjects2= [];
 
 
 gdjs.Game_32Over_32Code.eventsList0 = function(runtimeScene) {
@@ -35,7 +37,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25076436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25085396);
 }
 }
 if (isConditionTrue_0) {
@@ -49,8 +51,11 @@ if (isConditionTrue_0) {
 
 
 let isConditionTrue_0 = false;
-{
-}
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "r");
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "choice ", false);
+}}
 
 }
 
@@ -68,6 +73,8 @@ gdjs.Game_32Over_32Code.GDCannonObjects1.length = 0;
 gdjs.Game_32Over_32Code.GDCannonObjects2.length = 0;
 gdjs.Game_32Over_32Code.GDgameOverObjects1.length = 0;
 gdjs.Game_32Over_32Code.GDgameOverObjects2.length = 0;
+gdjs.Game_32Over_32Code.GDNewBBTextObjects1.length = 0;
+gdjs.Game_32Over_32Code.GDNewBBTextObjects2.length = 0;
 
 gdjs.Game_32Over_32Code.eventsList0(runtimeScene);
 

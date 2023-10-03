@@ -19,6 +19,8 @@ gdjs.You_32Win_32Code.GDTableObjects1= [];
 gdjs.You_32Win_32Code.GDTableObjects2= [];
 gdjs.You_32Win_32Code.GDCandleObjects1= [];
 gdjs.You_32Win_32Code.GDCandleObjects2= [];
+gdjs.You_32Win_32Code.GDNewBBTextObjects1= [];
+gdjs.You_32Win_32Code.GDNewBBTextObjects2= [];
 
 
 gdjs.You_32Win_32Code.eventsList0 = function(runtimeScene) {
@@ -31,7 +33,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24985956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24993172);
 }
 }
 if (isConditionTrue_0) {
@@ -99,6 +101,19 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "r");
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "choice ", false);
+}}
+
+}
+
+
 };
 
 gdjs.You_32Win_32Code.func = function(runtimeScene) {
@@ -124,6 +139,8 @@ gdjs.You_32Win_32Code.GDTableObjects1.length = 0;
 gdjs.You_32Win_32Code.GDTableObjects2.length = 0;
 gdjs.You_32Win_32Code.GDCandleObjects1.length = 0;
 gdjs.You_32Win_32Code.GDCandleObjects2.length = 0;
+gdjs.You_32Win_32Code.GDNewBBTextObjects1.length = 0;
+gdjs.You_32Win_32Code.GDNewBBTextObjects2.length = 0;
 
 gdjs.You_32Win_32Code.eventsList0(runtimeScene);
 
