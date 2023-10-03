@@ -1,0 +1,12 @@
+{
+  "name": "Mutiny 300",
+  "short_name": "Mutiny 300",
+  "id": "com.example.gamename",
+  "description": "Prevent the Mutiny with might !! ",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
