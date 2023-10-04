@@ -37,7 +37,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25091572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25095812);
 }
 }
 if (isConditionTrue_0) {
@@ -55,6 +55,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "r");
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "choice ", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }}
 
 }
