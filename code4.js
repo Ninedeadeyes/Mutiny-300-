@@ -109,6 +109,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "r");
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "choice ", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }}
 
 }
